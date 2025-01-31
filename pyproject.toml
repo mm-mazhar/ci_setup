@@ -23,7 +23,7 @@ target-version = "py313"
 ignore = ["F401"]  # ✅ Ignore unused imports
 
 [tool.pyright]
-exclude = [".venv"]
+exclude = [".venv", ".history"]  # ✅ Add .history to excluded folders
 pythonVersion = "3.13"
 venvPath = "."
 venv = ".venv"
