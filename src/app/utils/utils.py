@@ -1,6 +1,6 @@
 import logging
 
-from logConfigs import load_dictConfig
+from configs import load_log_dictConfig
 
 logger = logging.getLogger("app.logs")
 
