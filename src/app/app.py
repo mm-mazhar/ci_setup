@@ -23,4 +23,4 @@ if __name__ == "__main__":
     run_task()
     logger.info(add(1, 2))
 
-# msg deleted
+# msg added to the log file
