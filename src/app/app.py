@@ -7,7 +7,7 @@ import logging
 
 from utils import add
 
-from logConfigs import load_dictConfig
+from configs import load_log_dictConfig
 
 logger = logging.getLogger("app.logs")
 
@@ -23,4 +23,4 @@ if __name__ == "__main__":
     run_task()
     logger.info(add(1, 2))
 
-# msg deleted
+# load_log_dictConfig changed
