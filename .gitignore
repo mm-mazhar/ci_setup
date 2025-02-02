@@ -145,8 +145,11 @@ hello.py
 # Ruff Cache
 .ruff_cache/*
 
-# GitHub Cache
+# Git/GitHub Cache
+.git/*
+.git
 .github/*
+.github
 
 # Pytest Cache
 .pytest_cache/*
