@@ -1,0 +1,27 @@
+├── configs/
+│   ├── logConfigs.py
+│   ├── log_Configs.json
+│   └── __init__.py
+├── coverage.xml
+├── hello.py
+├── project_tree.txt
+├── pyproject.toml
+├── README.md
+├── requirements/
+│   ├── add_requirements.bat
+│   ├── add_requirements.sh
+│   └── requirements.txt
+├── src/
+│   ├── app/
+│   │   ├── app.py
+│   │   └── utils/
+│   │       ├── utils.py
+│   │       └── __init__.py
+│   └── ci_setup/
+│       ├── main.py
+│       └── __init__.py
+├── tests/
+│   ├── test_main.py
+│   └── __init__.py
+├── uv.lock
+└── UV_cheat_sheet.xlsx
