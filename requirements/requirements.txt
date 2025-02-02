@@ -1,0 +1,16 @@
+gitpython==3.1.43
+markdown2==2.5.1
+pdfkit==1.0.0
+weasyprint==63.0
+nbconvert
+# nbconvert==7.16.4
+pyyaml==6.0.2
+colorama==0.4.6
+fpdf==1.7.2
+pygments
+# pygments==0.3.0
+pypdf2==3.0.1
+notebook-as-pdf==0.5.0
+reportlab==4.2.5
+ipython==8.30.0
+chardet==5.2.0
