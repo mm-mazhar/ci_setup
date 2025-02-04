@@ -1,0 +1,35 @@
+# Clone the repository
+# REPO_URL: "https://github.com/yanx27/2DPASS.git"
+REPO_URL: "https://github.com/mm-mazhar/mazhar.git"
+
+# where to clone
+LOCAL_PATH: "./local_repos"
+
+# Where to Save PDFs
+PDF_PATH: "./output_pdfs"
+
+FILE_TYPES:
+  - ".py" # Python source files
+  - ".ipynb" # Jupyter Notebook files
+  - ".html" # HTML files (possibly used for web development or documentation)
+  - ".css" # Cascading Style Sheets files (for styling HTML files)
+  - ".js" # JavaScript files (often used alongside HTML/CSS)
+  - ".json" # JSON files (used for configuration, data exchange, etc.)
+  - ".xml" # XML files (used for configuration, data storage, etc.)
+  - ".yml" # YAML files (often used for configuration, e.g., in CI/CD pipelines)
+  - ".yaml" # YAML files (alternative extension)
+  - ".sh" # Shell scripts (used for automation or setup tasks)
+  - ".txt" # Plain text files (could be used for documentation or logs)
+  - ".md" # Markdown files (already included)
+  - ".ini" # Added support for .ini files
+  - ".env" # Added support for .env files
+  - ".sql" # Added support for .sql files
+  # - ".csv" # Added support for .csv files
+  # - ".tsv" # Added support for .tsv files
+  # - ".xls" # Added support for .xls files
+  # - ".xlsx" # Added support for .xlsx files
+  # - ".pdf" # Added support for .pdf files
+  # - ".doc" # Added support for .doc files
+  # - ".docx" # Added support for .docx files
+  # - ".ppt" # Added support for .ppt files
+  # - ".pptx" # Added support for .pptx files

@@ -1,7 +1,9 @@
+import io
 import json
 import logging
 import logging.config
 import os
+import sys
 
 
 def load_logging_config(file_path) -> dict:
@@ -12,7 +14,9 @@ def load_logging_config(file_path) -> dict:
 
 def load_log_dictConfig() -> None:
     """Loads and sets up logging config if not already configured"""
-    log_dir = os.path.join(os.path.dirname(__file__), "logs")
+    # log_dir = os.path.join(os.path.dirname(__file__), "logs")
+    log_dir = os.path.join("logs")
+    # print(f"log_dir: {log_dir}")
 
     # ✅ Ensure the logs directory exists
     if not os.path.exists(log_dir):

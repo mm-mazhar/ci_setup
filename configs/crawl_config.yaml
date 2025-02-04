@@ -1,0 +1,5 @@
+WEBSITE_TO_CRAWL: ""
+# WEBSITE_TO_CRAWL: "https://www.omdena.com/"
+# WEBSITE_TO_CRAWL: "https://docs.crawl4ai.com/"
+
+OUTPUT_DIR: "./output_crawl"
