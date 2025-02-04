@@ -7,7 +7,7 @@ import logging
 
 from utils import add
 
-from configs import load_log_dictConfig
+# from configs import load_log_dictConfig
 
 logger = logging.getLogger("app.logs")
 
@@ -17,6 +17,7 @@ logger.info("***app.py***")
 def run_task():
     logger.warning("Running a task inside src/app/app.py")
     logger.info("This info message won't be logged since level is WARNING")
+    logger.error("This error message will be logged")
 
 
 if __name__ == "__main__":
