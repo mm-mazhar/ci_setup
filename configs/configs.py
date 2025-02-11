@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+# """
+# configs.py
+# Created on Dec 17, 2024
+# @ Author: Mazhar
+# """
+
 import logging
 import os
 

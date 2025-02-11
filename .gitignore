@@ -148,8 +148,6 @@ hello.py
 # Git/GitHub Cache
 .git/*
 .git
-.github/*
-.github
 
 # Pytest Cache
 .pytest_cache/*

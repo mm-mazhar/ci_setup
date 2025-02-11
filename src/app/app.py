@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+# """
+# app.py
+# Created on Dec 17, 2024
+# @ Author: Mazhar
+# """
+
+
 import os
 import sys
 
@@ -7,10 +15,10 @@ import logging
 
 from utils import add
 
-# from configs import load_log_dictConfig
+from configs import load_log_dictConfig
 
+load_log_dictConfig()
 logger = logging.getLogger("app.logs")
-
 logger.info("***app.py***")
 
 
