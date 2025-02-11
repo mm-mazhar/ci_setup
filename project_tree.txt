@@ -25,5 +25,3 @@
 │   └── __init__.py
 ├── uv.lock
 └── UV_cheat_sheet.xlsx
-
-test_main

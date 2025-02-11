@@ -31,3 +31,5 @@ def run_task():
 if __name__ == "__main__":
     run_task()
     logger.info(add(1, 2))
+
+# run
