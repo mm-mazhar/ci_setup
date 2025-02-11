@@ -11,7 +11,6 @@ import json
 import logging
 import logging.config
 import os
-import sys
 
 
 def load_logging_config(file_path) -> dict:
@@ -20,7 +19,7 @@ def load_logging_config(file_path) -> dict:
         return json.load(f)
 
 
-def load_log_dictConfig() -> None:
+def load_logConfigs() -> None:
     """Loads and sets up logging config if not already configured"""
     # log_dir = os.path.join(os.path.dirname(__file__), "logs")
     log_dir = os.path.join("logs")
@@ -53,4 +52,4 @@ def load_log_dictConfig() -> None:
 
 
 # Run setup when the module is imported
-# load_log_dictConfig()
+# load_logConfigs()

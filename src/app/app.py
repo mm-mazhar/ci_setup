@@ -15,9 +15,9 @@ import logging
 
 from utils import add
 
-from configs import load_log_dictConfig
+from configs import load_logConfigs
 
-load_log_dictConfig()
+load_logConfigs()
 logger = logging.getLogger("app.logs")
 logger.info("***app.py***")
 
@@ -31,5 +31,3 @@ def run_task():
 if __name__ == "__main__":
     run_task()
     logger.info(add(1, 2))
-
-# load_log_dictConfig changed
